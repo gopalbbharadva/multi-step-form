@@ -24,13 +24,15 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
     },
     extend: {
-      fontFamily:{
-        'sans':['Ubuntu','sans']
+      screens: {
+        sm: "375px",
+        md:'740px',
+        lg: "1200px",
+      },
+      fontFamily: {
+        sans: ["Ubuntu", "sans"],
       },
       keyframes: {
         "accordion-down": {
