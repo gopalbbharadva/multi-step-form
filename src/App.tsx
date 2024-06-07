@@ -5,6 +5,7 @@ import Desktop from "../public/images/bg-sidebar-desktop.svg";
 import { Button } from "./components/ui/button";
 import { StepOne } from "./components/ui/custom/StepOne";
 import { StepTwo } from "./components/ui/custom/StepTwo";
+import { StepThree } from "./components/ui/custom/StepThree";
 
 export default function Home() {
   return (
@@ -82,7 +83,8 @@ export default function Home() {
           flex-col shadow-md absolute top-24 m-4 md:static md:shadow-none md:pb-0"
         >
           {/* <StepOne /> */}
-          <StepTwo />
+          {/* <StepTwo /> */}
+          <StepThree />
         </div>
       </div>
       <div className="bg-white mt-auto fixed bottom-0 w-full flex justify-end items-end p-4 md:hidden">
