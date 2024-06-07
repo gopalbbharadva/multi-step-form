@@ -2,20 +2,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+
+/* @font-face {
+  font-family: 'Ubuntu';
+  src: url('../public/fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'CustomFont';
-  src: url('../public/fonts/Ubuntu-Bold.ttf') format('truetype'),
+  font-family: 'Ubuntu';
+  src: url('../public/fonts/Ubuntu-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../public/fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: 700;
+} */
+
+body {
+  font-family: 'Ubuntu', sans-serif; /* Use the Ubuntu font family */
+}
+
+
+/* @font-face {
+  font-family: 'Ubuntu';
+  src: 
        url('../public/fonts/Ubuntu-Medium.ttf') format('truetype'),
        url('../public//fonts/Ubuntu-Regular.ttf') format('truetype');
-}
+} */
 
 .logo {
   height: 6em;

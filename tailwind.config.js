@@ -29,6 +29,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily:{
+        'sans':['Ubuntu','sans']
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
