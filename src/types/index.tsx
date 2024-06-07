@@ -3,3 +3,8 @@ export type TypoGraphyPropsType = {
   text: string;
   className?: string;
 };
+
+export type StepCountPropsType={
+    count:number
+    className?:string
+}
