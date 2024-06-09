@@ -1,6 +1,4 @@
-import React from "react";
 import { Typography } from "./typography";
-import { Checkbox } from "../checkbox";
 import { Button } from "../button";
 
 export const StepThree = () => {

@@ -7,6 +7,7 @@ import { StepOne } from "./components/ui/custom/StepOne";
 import { StepTwo } from "./components/ui/custom/StepTwo";
 import { StepThree } from "./components/ui/custom/StepThree";
 import { StepFour } from "./components/ui/custom/StepFour";
+import { StepFive } from "./components/ui/custom/StepFive";
 
 export default function Home() {
   return (
@@ -86,7 +87,8 @@ export default function Home() {
           {/* <StepOne /> */}
           {/* <StepTwo /> */}
           {/* <StepThree /> */}
-          <StepFour />
+          {/* <StepFour /> */}
+          <StepFive />
         </div>
       </div>
       <div className="bg-white mt-auto fixed bottom-0 w-full flex justify-end items-end p-4 md:hidden">
